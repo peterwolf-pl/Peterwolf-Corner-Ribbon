@@ -4,7 +4,7 @@ Tags: ribbon, corner ribbon, badge, overlay, announcement
 Requires at least: 6.4
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,6 +15,8 @@ Add a customizable diagonal corner ribbon overlay to any WordPress website layou
 Peterwolf Corner Ribbon displays an elegant diagonal ribbon in the upper-left or upper-right corner of the public website. It is designed for labels such as Preview, New, Sale, Archived, or any custom notice that needs to remain visible above the theme layout.
 
 The plugin does not require editing templates or blocks. Activate it, open Appearance > Corner Ribbon, and configure the ribbon from a single settings page.
+
+Source code: https://github.com/peterwolf-pl/Peterwolf-Corner-Ribbon
 
 Features:
 
@@ -49,6 +51,10 @@ Yes. Add line breaks in the Ribbon text field and the frontend ribbon will prese
 No. It is displayed only on the public-facing frontend when enabled.
 
 == Changelog ==
+
+= 1.0.3 =
+
+* Added the public source code repository link.
 
 = 1.0.2 =
 
