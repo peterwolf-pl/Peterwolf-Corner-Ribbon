@@ -1,0 +1,42 @@
+.pwcr-ribbon {
+	background: var(--pwcr-background);
+	box-shadow: var(--pwcr-shadow);
+	box-sizing: border-box;
+	color: var(--pwcr-text-color);
+	display: flex;
+	font-family: var(--pwcr-font-family);
+	font-size: var(--pwcr-font-size);
+	font-weight: var(--pwcr-font-weight);
+	inset-block-start: var(--pwcr-top);
+	justify-content: center;
+	letter-spacing: var(--pwcr-letter-spacing);
+	line-height: var(--pwcr-line-height);
+	padding: var(--pwcr-padding) 42px;
+	pointer-events: none;
+	position: fixed;
+	text-align: center;
+	text-transform: var(--pwcr-transform);
+	width: var(--pwcr-width);
+	z-index: var(--pwcr-z-index);
+}
+
+.pwcr-ribbon--right {
+	inset-inline-end: calc(var(--pwcr-width) * -0.27);
+	transform: rotate(45deg);
+}
+
+.pwcr-ribbon--left {
+	inset-inline-start: calc(var(--pwcr-width) * -0.27);
+	transform: rotate(-45deg);
+}
+
+.pwcr-ribbon__text {
+	overflow-wrap: anywhere;
+	white-space: pre-line;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.pwcr-ribbon {
+		transition: none;
+	}
+}

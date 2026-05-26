@@ -1,0 +1,18 @@
+.pwcr-settings .form-table {
+	max-width: 850px;
+}
+
+.pwcr-settings .form-table th {
+	width: 220px;
+}
+
+.pwcr-settings textarea {
+	max-width: 520px;
+}
+
+.pwcr-settings h2 {
+	border-bottom: 1px solid #dcdcde;
+	margin-top: 30px;
+	max-width: 850px;
+	padding-bottom: 8px;
+}
