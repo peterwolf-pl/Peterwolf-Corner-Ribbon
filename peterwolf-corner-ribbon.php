@@ -3,8 +3,8 @@
  * Plugin Name: Peterwolf Corner Ribbon
  * Plugin URI: https://github.com/peterwolf-pl/Peterwolf-Corner-Ribbon
  * Description: Adds a customizable diagonal corner ribbon overlay to the public-facing website.
- * Version: 1.0.3
- * Author: peterwolf.pl
+ * Version: 1.0.4
+ * Author: peterwolfpl
  * Author URI: https://peterwolf.pl
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'PWCR_VERSION', '1.0.3' );
+define( 'PWCR_VERSION', '1.0.4' );
 define( 'PWCR_FILE', __FILE__ );
 define( 'PWCR_DIR', plugin_dir_path( __FILE__ ) );
 define( 'PWCR_URL', plugin_dir_url( __FILE__ ) );

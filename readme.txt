@@ -4,7 +4,7 @@ Tags: ribbon, corner ribbon, badge, overlay, announcement
 Requires at least: 6.4
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,6 +51,10 @@ Yes. Add line breaks in the Ribbon text field and the frontend ribbon will prese
 No. It is displayed only on the public-facing frontend when enabled.
 
 == Changelog ==
+
+= 1.0.4 =
+
+* Corrected contributor's username to match the username on Wordpress.org.
 
 = 1.0.3 =
 
